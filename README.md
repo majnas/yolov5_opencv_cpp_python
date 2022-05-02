@@ -29,17 +29,12 @@ python export.py --weights models/YOLOv5s.pt --include onnx
 ```
 
 
-# To compile cpp version
-```python
+# To compile and run cpp version
+```bash
     cd cpp
     mkdir build
     cd build
     cmake ..
     make     
-```
-
-# To run cpp version
-```python    
-    cd cpp/build
     ./app
 ```
