@@ -99,8 +99,9 @@ if __name__ == '__main__':
       with open(classesFile, 'rt') as f:
             classes = f.read().rstrip('\n').split('\n')
       # Load image.
-    #   frame = cv2.imread("traffic.jpg")
-      frame = cv2.imread("../data/od.jpg")
+      # frame = cv2.imread("traffic.jpg")
+      # frame = cv2.imread("../data/od.jpg")
+      frame = cv2.imread("../data/me.jpeg")
       # Give the weight files to the model and load the network using       them.
       modelWeights = "../yolov5/models/YOLOv5s.onnx"
       net = cv2.dnn.readNet(modelWeights)
