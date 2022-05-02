@@ -6,7 +6,7 @@ Object Detection using YOLOv5 and OpenCV DNN (C++ and Python)
 
 ```bash
 git clone --recursive https://github.com/majnas/yolov5_opencv_cpp_python.git
-cd yolov5
+cd yolov5_opencv_cpp_python/yolov5
 
 # Install dependencies.
 pip install -r requirements.txt
@@ -17,6 +17,7 @@ cd models
 wget https://github.com/ultralytics/YOLOv5/releases/download/v6.1/YOLOv5s.pt
 
 # Export to ONNX
+cd ..
 python export.py --weights models/YOLOv5s.pt --include onnx
 ```
 
