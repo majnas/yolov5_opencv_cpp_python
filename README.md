@@ -1,6 +1,8 @@
 
 # yolov5_opencv_cpp_python
 Object Detection using YOLOv5 and OpenCV DNN (C++ and Python)
+[Original Source](https://learnopencv.com/object-detection-using-yolov5-and-opencv-dnn-in-c-and-python/)
+
 
 ```bash
 git clone --recursive git://github.com/majnas/yolov5_opencv_cpp_python.git
@@ -26,3 +28,17 @@ python export.py --weights models/YOLOv5s.pt --include onnx
 ```
 
 
+# To compile cpp version
+```python
+    cd cpp
+    mkdir build
+    cd build
+    cmake ..
+    make     
+```
+
+# To run cpp version
+```python    
+    cd cpp/build
+    ./app
+```
