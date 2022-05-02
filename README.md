@@ -27,6 +27,12 @@ python export.py --weights models/YOLOv5s.pt --include onnx
     cd py
     python main.py
 ```
+<div align="center">
+  <img src="./data/me_py_pred.png" height="500">
+</div>
+<p align="center">
+  Figure 1: python prediction for me.png
+</p>
 
 
 # To compile and run cpp version
@@ -38,3 +44,10 @@ python export.py --weights models/YOLOv5s.pt --include onnx
     make     
     ./app
 ```
+
+<div align="center">
+  <img src="./data/me_cpp_pred.png" height="500">
+</div>
+<p align="center">
+  Figure 2: cpp prediction for me.png
+</p>
