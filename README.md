@@ -3,6 +3,10 @@
 Object Detection using YOLOv5 and OpenCV DNN (C++ and Python)
 [Original Source](https://learnopencv.com/object-detection-using-yolov5-and-opencv-dnn-in-c-and-python/)
 
+# Demo video
+https://user-images.githubusercontent.com/31705845/166663140-cf238d84-94ad-49eb-9a24-290528fff70d.mp4
+
+
 
 ```bash
 git clone --recursive https://github.com/majnas/yolov5_opencv_cpp_python.git
